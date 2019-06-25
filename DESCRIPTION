@@ -1,0 +1,34 @@
+Package: ases
+Title: ASES Toolkit Family
+Version: 1.0.0
+Author: Yiying Wang <wangy@aetna.com>
+Maintainer: Yiying Wang <wangy@aetna.com>
+Contributor: Shanshan Zou <zous@aetna.com>
+Description: The 'ases' family is a set of packages that work in
+    harmony because they share common data representations and 'API'
+    design. This package is designed to make it easy to load
+    multiple 'ases' packages in a single step. Thanks to tidyverse
+	and its developers.
+License: GPL
+Depends: 
+    R (>= 3.2)
+Imports:
+    asesgeo (>= 0.1.0),
+    asesmso (>= 0.1.0),
+    asesrpt (>= 0.1.0),
+    asestio (>= 0.1.0),
+    asesvis (>= 0.1.0),
+    aseskit (>= 0.1.0),
+    cli,
+    crayon,
+    purrr,
+    rstudioapi,
+    tibble,
+    utils
+Suggests: 
+    testthat
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
